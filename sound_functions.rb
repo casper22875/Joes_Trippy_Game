@@ -2,6 +2,9 @@ def game_sounds
   require 'win32/sound'
   include Win32
 end
+def sndtrk1
+  Sound.play('C:\Windows\Media\trippy_muzak.wav')
+end
 
 def error
   Sound.play('C:\Windows\Media\malfunction.wav')
